@@ -1,4 +1,4 @@
-#N canvas 339 184 446 518 10;
+#N canvas 487 194 303 444 10;
 #X obj -31 65 udpreceive 8000;
 #X obj -31 87 unpackOSC;
 #X obj -31 134 unpack 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
@@ -21,6 +21,7 @@
 #X obj -31 234 maxlib/scale 0 1 24 127;
 #X floatatom 23 160 5 0 0 0 - - -;
 #X floatatom -63 158 5 0 0 0 - - -;
+#X obj 20 275 *~ 0.3;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 2 0 12 0;
@@ -32,12 +33,14 @@
 #X connect 6 0 5 0;
 #X connect 6 1 5 1;
 #X connect 7 0 6 0;
+#X connect 7 0 6 1;
 #X connect 10 0 11 0;
 #X connect 11 0 6 0;
 #X connect 12 0 17 0;
-#X connect 13 0 7 1;
+#X connect 13 0 21 0;
 #X connect 14 0 7 0;
 #X connect 15 0 16 0;
 #X connect 16 0 4 0;
 #X connect 17 0 18 0;
 #X connect 18 0 15 0;
+#X connect 21 0 7 1;
