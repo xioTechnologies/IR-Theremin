@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 443.0, 85.0, 250.0, 415.0 ],
@@ -250,8 +251,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 41.0, 84.0, 110.0, 20.0 ],
-					"text" : "route /input/analog"
+					"patching_rect" : [ 41.0, 84.0, 129.0, 20.0 ],
+					"text" : "route /inputs/analogue"
 				}
 
 			}
@@ -440,8 +441,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "glide.maxpat",
-				"bootpath" : "/Users/tj3mitchell/Work/Research/Projects/xOSC/Demos/Theremin/Max",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/tj3-mitchell/Research/Projects/x-OSC/Software/Demos/IR-Theremin/Max",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
